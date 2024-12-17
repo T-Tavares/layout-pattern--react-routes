@@ -1,0 +1,29 @@
+.dashboardLayout {
+    height: 100dvh;
+    width: 100dvw;
+
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 1fr 80px;
+    grid-template-areas:
+        'sidebar outlet'
+        'sidebar footer';
+}
+
+.sidebar,
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar {
+    grid-area: sidebar;
+    background-color: #242424;
+}
+.outlet {
+    grid-area: outlet;
+}
+.footer {
+    grid-area: footer;
+    background-color: #444;
+}

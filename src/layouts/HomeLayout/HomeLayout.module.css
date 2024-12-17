@@ -1,0 +1,30 @@
+.homeLayout {
+    height: 100dvh;
+    width: 100dvw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.navbar,
+.outlet,
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    background-color: #242424;
+    height: 80px;
+}
+
+.outlet {
+    height: calc(100dvh - 280px);
+}
+.footer {
+    background-color: #242424;
+    height: 200px;
+}
