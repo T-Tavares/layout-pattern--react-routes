@@ -14,6 +14,11 @@ import DashboardFeature from './pages/DashboardFeature/DashboardFeature';
     Because they need children to be passed to The Outlet component.
 */
 
+/* 
+     Good place to have a Dev's Navbar you might use on development. 
+     But don't want it to be in production.     
+*/
+
 function App() {
     // prettier-ignore
     return (

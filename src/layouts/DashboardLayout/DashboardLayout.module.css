@@ -3,7 +3,7 @@
     width: 100dvw;
 
     display: grid;
-    grid-template-columns: 200px 1fr;
+    grid-template-columns: 300px 1fr;
     grid-template-rows: 1fr 80px;
     grid-template-areas:
         'sidebar outlet'
